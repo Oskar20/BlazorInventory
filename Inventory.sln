@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory", "Inventory\Inventory.csproj", "{AF0696AB-255A-46C9-9A23-5994AB0CD03C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{7F4BF26B-E155-471D-8928-CB99B8443E47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{70FDE370-149B-4F21-A734-89AA1829D647}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{F2DF2BED-3036-4C63-A62C-D899C7B76AB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF0696AB-255A-46C9-9A23-5994AB0CD03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0696AB-255A-46C9-9A23-5994AB0CD03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0696AB-255A-46C9-9A23-5994AB0CD03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0696AB-255A-46C9-9A23-5994AB0CD03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4BF26B-E155-471D-8928-CB99B8443E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4BF26B-E155-471D-8928-CB99B8443E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4BF26B-E155-471D-8928-CB99B8443E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4BF26B-E155-471D-8928-CB99B8443E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FDE370-149B-4F21-A734-89AA1829D647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FDE370-149B-4F21-A734-89AA1829D647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FDE370-149B-4F21-A734-89AA1829D647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FDE370-149B-4F21-A734-89AA1829D647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DF2BED-3036-4C63-A62C-D899C7B76AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DF2BED-3036-4C63-A62C-D899C7B76AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DF2BED-3036-4C63-A62C-D899C7B76AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DF2BED-3036-4C63-A62C-D899C7B76AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBFD33EC-6700-461E-BF66-393721B5C1AD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/myfirstproyect1
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Entities\\Entities.csproj
+		SccProjectName1 = Entities
+		SccLocalPath1 = Entities
+		SccProjectUniqueName2 = Inventory\\Inventory.csproj
+		SccProjectName2 = Inventory
+		SccLocalPath2 = Inventory
+		SccProjectUniqueName3 = DataAccess\\DataAccess.csproj
+		SccProjectName3 = DataAccess
+		SccLocalPath3 = DataAccess
+		SccProjectUniqueName4 = Business\\Business.csproj
+		SccProjectName4 = Business
+		SccLocalPath4 = Business
+	EndGlobalSection
+EndGlobal

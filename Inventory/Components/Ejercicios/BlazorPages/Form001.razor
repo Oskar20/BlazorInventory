@@ -1,0 +1,27 @@
+﻿<input type="text" @bind-value="@message" />
+<input type="text" @bind-value="@message1" />
+<input type="button" value="Haga Clic" @onclick="ChangeText" />
+<div>
+    @message
+</div>
+
+
+@code {
+
+    [Parameter]
+    public string Message { get; set; }
+
+    string message = "Un contenido";
+    string message1 = "";
+
+    //protected override async Task OnInitializedAsync()
+    //{
+    //    message = Message;
+    //}
+
+
+    private void ChangeText()
+    {
+        message1 = message;
+    }
+}
